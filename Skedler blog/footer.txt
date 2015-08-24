@@ -1,0 +1,23 @@
+<?php
+/**
+ * The template for displaying the footer.
+ *
+ *
+ * @package Kage
+ */
+?>
+		<footer>
+							
+			<div class="copyright_block">
+				<div class="container">
+					<div class="gutter clearfix">
+						<p class="copyright"><?php  echo esc_html(of_get_option('footer_text_left')); ?></p>
+						
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+<?php wp_footer(); ?>		
+</body>
+</html>
