@@ -1,0 +1,220 @@
+/*
+Theme Name: Kage Green
+Author: PWT
+Theme URI: http://www.pwtthemes.com/theme/kage-free-responsive-wordpress-theme
+Author URI: http://www.stefanciobanu.com
+Description: Kage is fully Responsive WordPress Theme for all type of business, It is easily customizable with numerous theme options
+Version: 1.0.3
+Tags: green, black, white, light, one-column, two-columns, right-sidebar, responsive-layout, fixed-layout, custom-menu, custom-background, featured-images, full-width-template, theme-options, threaded-comments, translation-ready
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+html {
+font-size: 100%;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+body {
+    font:normal 400 14px/1 'robotolight', Arial, sans-serif;
+	-ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+#header ol, #header ul, .pagesidebar ol, .pagesidebar ul , #footer ol, #footer ul  , .services_slider ul, .portfolio_slider ul, .testimonial_slider ul {
+	list-style: none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content:none;
+}
+blockquote {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-left: 5px solid #42ADEA;
+    font-style: italic;
+    margin: 10px 0;
+    padding: 10px 15px 5px;
+    quotes: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-bottom: 1px solid #DDDDDD;
+    margin: 15px 0;	
+	width:100%;
+}
+td {
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+}
+th {
+    background: none repeat scroll 0 0 #42ADEA;
+    border: 1px solid #42ADEA;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+}
+th a {
+    color: #FFFFFF;
+}
+
+cite, em, i {
+    font-style: italic;
+}
+pre, code, kbd {
+    background-color: #EEEEEE;
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 20px;
+}
+pre {
+    padding: 18px;
+    overflow: auto;	
+	white-space:pre-wrap;
+    margin: 10px 0;	
+}
+ins {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+dt {
+    font-weight: bold;
+	line-height: 1.4;
+}
+
+dd {
+    margin-bottom: 20px;
+	line-height: 1.4;
+}
+address {
+    margin: 0 0 15px;
+    display: block;	
+    line-height: 20px;	
+}
+abbr, acronym, dfn {
+    border-bottom: 1px dotted #42ADEA;
+    cursor: help;
+}
+sup, sub {
+    font-size: 10px;
+    height: 0;
+    line-height: 1;
+    position: relative;
+    vertical-align: baseline;
+}
+sub {
+    top: 2px;
+}
+embed, iframe, object {
+    max-width: 100%;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	max-width:100%;
+	text-decoration:none
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:4px;
+    border:0 none;   
+    margin:0;
+    padding:0;
+	background:url(images/separe.png) repeat-x 50% 50%
+}
+hr.separe{
+clear:both;
+margin-top:40px;
+margin-bottom:40px;
+}
+hr.space25{
+margin-top:25px;
+margin-bottom:25px;
+}
+hr.space35{
+margin-top:35px;
+margin-bottom:35px;
+}
+input, select {
+    vertical-align:middle;
+}
+a:focus, input:focus, select:focus, textarea:focus {outline:0;}
+img{
+max-width:100%;
+border:0;
+-ms-interpolation-mode:bicubic;
+}
+@-ms-viewport{
+width:device-width;
+}
+
+/**  fonts  **/
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('css/fonts/DroidSans-webfont.eot');
+    src: url('css/fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/DroidSans-webfont.woff') format('woff'),
+         url('css/fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('css/fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'droid_sansbold';
+    src: url('css/fonts/DroidSans-Bold-webfont.eot');
+    src: url('css/fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('css/fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('css/fonts/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('css/fonts/OpenSans-Regular-webfont.eot');
+    src: url('css/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('css/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('css/fonts/OpenSans-Regu
